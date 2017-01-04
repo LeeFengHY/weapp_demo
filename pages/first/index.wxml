@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<scroll-view class="scroll_view" scroll-x="false" scroll-y="false" bindscrolltolower="lower">
+  <block wx:for="{{arr}}" wx:key="{{index}}">
+    <view class="box"></view>
+  </block>
+</scroll-view>

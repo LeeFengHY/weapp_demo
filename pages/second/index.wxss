@@ -1,0 +1,25 @@
+.box{
+  background: red;
+  height: 10px;
+  width: 110%;
+  margin: 100px;
+}
+.container{
+  height: 100%
+}
+.scroll_view{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: greenyellow;
+}
+.tab{
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  background: blue;
+  z-index: 2;
+}
+

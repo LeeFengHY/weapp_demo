@@ -1,0 +1,5 @@
+<view class = "view1" bindtap="view1">
+    <view class = "view2" bindtap="view2">
+    
+    </view>
+</view>

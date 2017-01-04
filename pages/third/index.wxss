@@ -1,0 +1,12 @@
+.view1{
+    height: 100px;
+    width:100px;
+    background: red;
+    border: 10px solid black;
+}
+.view2{
+    height: 50px;
+    width:50px;
+    background: greenyellow;
+    border: 10px solid blue;
+}

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="tab" bindtap="bindtap">
+  </view>
+
+  <scroll-view class="scroll_view" scroll-x="{{x}}" scroll-y="{{y}}" bindscrolltolower="lower">
+    <block wx:for="{{arr}}" wx:key="{{index}}">
+      <view class="box"></view>
+    </block>
+  </scroll-view>
+</view>
